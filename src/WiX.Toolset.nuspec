@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata minClientVersion="2.7">
         <id>WiX.Toolset.UnofficialFork</id>
-        <version>3.10.3-ext</version>
-        <title>WiX Toolset v3.10 (unofficial)</title>
+        <version>3.11.0</version>
+        <title>WiX Toolset v3.11 (unofficial)</title>
         <summary>Windows Installer XML (WiX Toolset) binaries for compiling setup projects.</summary>
         <description>This package contains the binaries needed to compile Windows Installer XML (WiX) setup projects. Just add this NuGet package to your WiX setup projects and you're done (no setup required on build servers etc.). Note that you still need to install WiX Toolset in Visual Studio to get the editor experience.
 
@@ -12,25 +12,21 @@
         <authors>Rob Mensching,Bob Arnson</authors>
         <owners>jozefizso</owners>
         <projectUrl>https://github.com/jozefizso/WiX.Toolset.NuGet</projectUrl>
-        <licenseUrl>https://github.com/jozefizso/WiX.Toolset.NuGet/blob/v3.10.3/LICENSE.md</licenseUrl>
+        <licenseUrl>https://github.com/jozefizso/WiX.Toolset.NuGet/blob/v3.11.0/LICENSE.md</licenseUrl>
         <iconUrl>http://wixtoolset.org/Content/logo_framed.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <tags>WiX MSI Installer XML</tags>
-        <releaseNotes>WiX v3.10.3-ext release with custom build of burn.exe
+        <releaseNotes>WiX Toolset v3.11 release
 
-The following patches are applied to burn.exe in WiX v3.10.3-ext:
-* New `WixBundleUILevel` property. Burn engine will set it to the value of the UI display level of the bootstrapper.
-* Language used to localize the bootstrapper interface is determined by the `GetUserDefaultUILanguage()` function. There is a new corresponding `UserUILanguageID` property available.
+List of notable changes in WiX v3.11:
+* Support for .NET Framework 4.6.2
+* Bug fixes for several Burn variables
+* Bug fixes in several custom actions
+* Added support for `InternetShortcut`
+* `BundleEnumRelatedBundle` returns the bundle id rather than the bundle provider key
 
-The following bugs were fixed in WiX v3.10.3:
-* layout: Default directory broken with clean room implementation.
-* WiX 3.10.1 failing to update to 3.10.2
-* New bootstrapper fails to run when performing an UpdateReplace
-* System.ArgumentException: Font '?' cannot be found. In the BootstapperApplication
-* Layout to custom directory doesn't copy bundle payload
-* Regression in attached container issues in clean room
-* Extra argument in burn command line
-* Custom burn application throws exception when accessing .NET dll when uninstalling
+List of all changes in this release: https://github.com/wixtoolset/wix3/releases/tag/wix311rtm
+
         </releaseNotes>
     </metadata>
 </package>

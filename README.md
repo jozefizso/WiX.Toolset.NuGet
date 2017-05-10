@@ -8,20 +8,8 @@ The files are taken from the ZIP distribution of the WiX Toolset releases (http:
 
 Feel free to file an issue here on GitHub in case you have problems using the package.
 
-## Release 3.10.3-ext
+## Release 3.11.0
 
-Package **3.10.3-ext** contains the WiX v3.10.3 binaries from official release and patched version of burn.exe bootstrapper.
+Package **3.11.0** contains the WiX v3.11.0 binaries from official release.
 
-The following patches are applied to burn.exe in WiX v3.10.3-ext:
-* New `WixBundleUILevel` property. Burn engine will set it to the value of the UI display level of the bootstrapper.
-* Language used to localize the bootstrapper interface is determined by the `GetUserDefaultUILanguage()` function. There is a new corresponding `UserUILanguageID` property available.
-
-The following bugs were fixed in WiX v3.10.3:
-* layout: Default directory broken with clean room implementation.
-* WiX 3.10.1 failing to update to 3.10.2
-* New bootstrapper fails to run when performing an UpdateReplace
-* System.ArgumentException: Font '?' cannot be found. In the BootstapperApplication
-* Layout to custom directory doesn't copy bundle payload
-* Regression in attached container issues in clean room
-* Extra argument in burn command line
-* Custom burn application throws exception when accessing .NET dll when uninstalling
+Full release notes: [https://github.com/wixtoolset/wix3/releases/tag/wix311rtm](https://github.com/wixtoolset/wix3/releases/tag/wix311rtm)
