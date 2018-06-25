@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata minClientVersion="2.7">
         <id>WiX.Toolset.UnofficialFork</id>
-        <version>3.11.0</version>
-        <title>WiX Toolset v3.11 (unofficial)</title>
+        <version>3.11.1</version>
+        <title>WiX Toolset v3.11.1 (unofficial)</title>
         <summary>Windows Installer XML (WiX Toolset) binaries for compiling setup projects.</summary>
         <description>This package contains the binaries needed to compile Windows Installer XML (WiX) setup projects. Just add this NuGet package to your WiX setup projects and you're done (no setup required on build servers etc.). Note that you still need to install WiX Toolset in Visual Studio to get the editor experience.
 
@@ -12,11 +12,14 @@
         <authors>Rob Mensching,Bob Arnson</authors>
         <owners>jozefizso</owners>
         <projectUrl>https://github.com/jozefizso/WiX.Toolset.NuGet</projectUrl>
-        <licenseUrl>https://github.com/jozefizso/WiX.Toolset.NuGet/blob/v3.11.0/LICENSE.md</licenseUrl>
-        <iconUrl>http://wixtoolset.org/Content/logo_framed.png</iconUrl>
+        <licenseUrl>https://raw.githubusercontent.com/jozefizso/WiX.Toolset.NuGet/v3.11.1/LICENSE</licenseUrl>
+        <iconUrl>https://raw.githubusercontent.com/jozefizso/WiX.Toolset.NuGet/v3.11.1/logo_framed.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <tags>WiX MSI Installer XML</tags>
-        <releaseNotes>WiX Toolset v3.11 release
+        <releaseNotes>WiX Toolset v3.11.1 release
+
+Fixed in WiX v3.11.1:
+* WIXBUG:5724 - fix DLL hijack of clean room when bundle launched elevated
 
 List of notable changes in WiX v3.11:
 * Support for .NET Framework 4.6.2
@@ -25,7 +28,7 @@ List of notable changes in WiX v3.11:
 * Added support for `InternetShortcut`
 * `BundleEnumRelatedBundle` returns the bundle id rather than the bundle provider key
 
-List of all changes in this release: https://github.com/wixtoolset/wix3/releases/tag/wix311rtm
+List of all changes in this release: https://github.com/wixtoolset/wix3/releases/tag/wix3111rtm
 
         </releaseNotes>
     </metadata>
