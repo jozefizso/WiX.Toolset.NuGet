@@ -6,11 +6,11 @@ The files are taken from the ZIP distribution of the WiX Toolset releases (http:
 
 Feel free to file an issue here on GitHub in case you have problems using the package.
 
-## Release 3.11.1
+## Release 3.11.2
 
-Package **3.11.1** contains the WiX v3.11.1 binaries from official release.
+Package **3.11.2** contains the WiX v3.11.2 binaries from official release.
 
-Full release notes: [https://github.com/wixtoolset/wix3/releases/tag/wix3111rtm](https://github.com/wixtoolset/wix3/releases/tag/wix3111rtm)
+Full release notes: [https://github.com/wixtoolset/wix3/releases/tag/wix3112rtm](https://github.com/wixtoolset/wix3/releases/tag/wix3112rtm)
 
 
 ## License
