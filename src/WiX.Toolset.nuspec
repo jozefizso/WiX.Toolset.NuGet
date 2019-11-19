@@ -12,8 +12,8 @@
         <authors>Rob Mensching,Bob Arnson</authors>
         <owners>jozefizso</owners>
         <projectUrl>https://github.com/jozefizso/WiX.Toolset.NuGet</projectUrl>
-        <licenseUrl>https://raw.githubusercontent.com/jozefizso/WiX.Toolset.NuGet/v3.11.2/LICENSE</licenseUrl>
-        <iconUrl>https://raw.githubusercontent.com/jozefizso/WiX.Toolset.NuGet/v3.11.2/logo_framed.png</iconUrl>
+        <license type="file">LICENSE.txt</license>
+        <icon>wix3_logo.png</icon>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <tags>WiX MSI Installer XML</tags>
         <releaseNotes>WiX Toolset v3.11.2-ext1 release
